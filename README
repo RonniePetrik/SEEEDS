@@ -1,1 +1,2 @@
-
+SEEEDS is an experimental super-simple operating system that is like a virtual box. It runs in the command line, to find the manual, type help, then commands or manual (case sensitive).
+Coded in python
