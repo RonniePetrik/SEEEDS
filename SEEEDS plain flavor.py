@@ -100,7 +100,7 @@ while True:
     elif input_mode == 'help':
         input_help = input('What Do You Need Help With? Commands or Manual?>>')
         if input_help == ('commands'):
-            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note')
+            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, passpick=open password picker 25')
         elif input_help == ('manual'):
             with open('seeeds_manual.txt', 'r') as f:
                 data = f.readlines()
