@@ -29,7 +29,7 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
-print('                                                                                   |                 version 0.0.0.7.9                         |')
+print('                                                                                   |                 version 0.1.0.0.0                         |')
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
@@ -107,6 +107,37 @@ while True:
                 for d in data:
                     print('\n\n\n\n')
                     print(d)
+    elif input_mode == 'passpick':
+        #!/usr/bin/python
+        import random
+        import string
+        
+        adjectives = ['sleepy', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
+        
+        nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']
+        verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying']
+        print('Welcome to Password Picker 25!, version 0.0.0.1, by Ronnie Petrik')
+        print('')
+        print('')
+        print('\n')
+        print('The 3rd version of Password Picker')
+        print('last upadated: 0/0/0     last major update: 12/30/2024')
+        print('\n\n\n\n\n')
+        while True:
+            adjective = random.choice(adjectives)
+            noun = random.choice(nouns)
+            verb = random.choice(verbs)
+            number = random.randrange(0, 100)
+            special_char = random.choice(string.punctuation)
+            password = adjective + verb + noun + str(number) + special_char
+            print('Your New Password is: %s' % password)
+            print('\n')
+            
+            response = input('Would you like another password? Type yes {<-or->} no: ')
+            print('\n')
+            if response == 'no':
+                print('Your Final password was' + password)
+                break
             
     else:
         print('No such input!')
