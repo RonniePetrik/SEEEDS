@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
+#Import time
 import time
 def coin_collector():
     print("This is the game")
+#Start printing the boot up screen.
 print('                                                                                                                         ')
 time.sleep(1)
 print('                                                                                                        BO                     ')
@@ -19,6 +21,7 @@ print('                                                                         
 time.sleep(1)
 
 time.sleep(1)
+#import random and string (used later)
 import random
 import string
 print('                                                                                    ____________________________________________________________')
@@ -82,13 +85,13 @@ while True:
             print(type_2)
             print('\n\n\n')
         else:  
-            print('SYNTAX ERROR, MISTYPE?')
+            print('SYNTAX ERROR, MISTYPE?')     #Displayed if you put in an unknown command
     elif input_mode == 'B':
         input_mode_b = input('B>>>')
-        if input_mode_b == input('??????'):
+        if input_mode_b == input('??????'):    #Little Easter Egg
             print('something')
         else:
-            print('SYNTAX ERROR, MISTYPE?')
+            print('SYNTAX ERROR, MISTYPE?')         #Displayed if you type an unknown command
     elif input_mode == 'C':
         input_mode_c = input('C>>>>')
         if input_mode_c == 'simplegame_coincollector':
@@ -107,14 +110,14 @@ while True:
                 for d in data:
                     print('\n\n\n\n')
                     print(d)
-    elif input_mode == 'passpick':
+    elif input_mode == 'passpick': #Starts the password picker 25 program!
         #!/usr/bin/python
         import random
         import string
         
         adjectives = ['sleepy', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
         
-        nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']
+        nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker witch generates secure passwords.
         verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying']
         print('Welcome to Password Picker 25!, version 0.0.0.1, by Ronnie Petrik')
         print('')
@@ -130,14 +133,14 @@ while True:
             number = random.randrange(0, 100)
             special_char = random.choice(string.punctuation)
             password = adjective + verb + noun + str(number) + special_char
-            print('Your New Password is: %s' % password)
-            print('\n')
+            print('Your New Password is: %s' % password)       #Displays your new password
+            print('\n')          #print an empty line.
             
-            response = input('Would you like another password? Type yes {<-or->} no: ')
+            response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated
             print('\n')
             if response == 'no':
-                print('Your Final password was' + password)
-                break
+                print('Your Final password was' + password)      #shows your final password that was generated before quitting the program.
+                break  #breaks the loop
             
     else:
         print('No such input!')
