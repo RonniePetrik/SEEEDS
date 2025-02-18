@@ -92,8 +92,8 @@ while True:
             print('something')
         else:
             print('SYNTAX ERROR, MISTYPE?')         #Displayed if you type an unknown command
-    elif input_mode == 'C':
-        input_mode_c = input('C>>>>')
+    elif input_mode == 'C':                            #if you type 'C' into MM
+        input_mode_c = input('C>>>>')                   #Display this
         if input_mode_c == 'simplegame_coincollector':
             coin_collector()
         elif input_mode_c == 'simplegame_shootthefruit':
@@ -143,6 +143,6 @@ while True:
                 break  #breaks the loop
             
     else:
-        print('No such input!')
+        print('No such input!')    #Tells you that the input you have put into the main menu does not exist
                 
         
