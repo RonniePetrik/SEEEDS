@@ -24,7 +24,7 @@ time.sleep(1)
 #import random and string (used later)
 import random
 import string
-print('                                                                                    ____________________________________________________________')
+print('                                                                                    ____________________________________________________________')        #Boot screen thingie
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
@@ -38,7 +38,7 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |             Original Release:12/31/2024                   |')
 time.sleep(1)
-print('                                                                                   |            Last Major Update:12/31/2024                   |')
+print('                                                                                   |            Last Major Update:2/18/2025                    |')
 time.sleep(1)
 print('                                                                                   |           Read User Manual (type \'help\')                  |')
 time.sleep(1)
@@ -78,9 +78,9 @@ while True:
             print('\n\n\n\n')
             print(type_1)               #print what was typed
             print('\n\n\n')
-        elif input_mode_a == 'note_2':
-            type_2 = input('TYPE NOTE 2 HERE--')
-        elif input_mode_a == 'show_note_2':
+        elif input_mode_a == 'note_2':               #if you type in the "note_2" command;  
+            type_2 = input('TYPE NOTE 2 HERE--')    #type your note
+        elif input_mode_a == 'show_note_2':          #if you type to show note 2, show the note you typed.
             print('\n\n\n\n')
             print(type_2)
             print('\n\n\n')
@@ -96,7 +96,7 @@ while True:
         input_mode_c = input('C>>>>')                   #Display this
         if input_mode_c == 'simplegame_coincollector':
             coin_collector()
-        elif input_mode_c == 'simplegame_shootthefruit':
+        elif input_mode_c == 'simplegame_shootthefruit':  #if you enter the command for shoot the fruit then pass (game has not been added yet)
             pass
         else:
             print('Error, No such command')
@@ -112,7 +112,7 @@ while True:
                     print(d)
     elif input_mode == 'passpick': #Starts the password picker 25 program!
         #!/usr/bin/python
-        import random
+        import random     #import random and string
         import string
         
         adjectives = ['sleepy', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
