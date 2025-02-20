@@ -82,7 +82,7 @@ while True:
             type_2 = input('TYPE NOTE 2 HERE--')    #type your note
         elif input_mode_a == 'show_note_2':          #if you type to show note 2, show the note you typed.
             print('\n\n\n\n')
-            print(type_2)
+            print(type_2)     #Print "Type 2"
             print('\n\n\n')
         else:  
             print('SYNTAX ERROR, MISTYPE?')     #Displayed if you put in an unknown command
@@ -99,7 +99,7 @@ while True:
         elif input_mode_c == 'simplegame_shootthefruit':  #if you enter the command for shoot the fruit then pass (game has not been added yet)
             pass
         else:
-            print('Error, No such command')
+            print('Error, No such command') #If you type in a nonexistent input mode, display this.
     elif input_mode == 'help':
         input_help = input('What Do You Need Help With? commands or manual?>>')
         if input_help == ('commands'):
@@ -139,7 +139,7 @@ while True:
             response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated
             print('\n')
             if response == 'no':
-                print('Your Final password was' + password)      #shows your final password that was generated before quitting the program.
+                print('Your Final password was:' + password)      #shows your final password that was generated before quitting the program.
                 break  #breaks the loop
             
     else:
