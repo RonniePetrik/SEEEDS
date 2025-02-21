@@ -1,5 +1,5 @@
-SEEEDS is an experimental super-simple operating system that is like a virtual box. It runs in the command line, to find the manual, type help, then commands or manual (case sensitive).
-
+SEEEDS is an experimental super-simple operating system-ish program that you can edit with ease, it runs in the command line, to find the manual, type help, then commands or manual (case sensitive).
+The manual is also downloaded with the SEEEDS .zip files.
 SEEEDS is non-graphical, and in it's beta stage!
 
 Coded in Python
@@ -7,3 +7,5 @@ Coded in Python
 For now only works on any computers with Python installed, you can right click and execute this program. 
 You can find support and add-ons for SEEEDS on gitlab at https://gitlab.com/RonniePetrik/seeeds-simple-operating-system-help-support-and-addons
 For other help email ronniepetrik2@gmail.com
+
+Have Fun!
