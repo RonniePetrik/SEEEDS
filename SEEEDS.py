@@ -32,7 +32,7 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
-print('                                                                                   |                 version 4.8.9.2.8                         |')
+print('                                                                                   |                 version 5.0.0.0.0                         |')
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
@@ -217,7 +217,7 @@ while True:
     elif input_mode == 'help':
         input_help = input('What Do You Need Help With? commands or manual? Type one!>>')
         if input_help == ('commands'):
-            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, (In MM>) passpick=open Password Picker 25')
+            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, in input B, simplegame_battleship=open battleship game (In MM>) passpick=open Password Picker 25')
         elif input_help == ('manual'):
             with open('seeeds_manual.txt', 'r') as f:
                 data = f.readlines()
