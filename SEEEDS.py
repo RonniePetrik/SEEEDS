@@ -213,7 +213,7 @@ while True:
                     else:
                         break
         else:
-            print('Error, No such command') #If you type in a nonexistent input mode, display this.
+            print('Error, No such command') #If you type in a nonexistent command into input C,  display this.
     elif input_mode == 'help':
         input_help = input('What Do You Need Help With? commands or manual? Type one!>>')
         if input_help == ('commands'):
