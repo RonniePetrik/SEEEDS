@@ -3,19 +3,19 @@
 #Import time
 import time
 def SNAKE():
-    print('Deleted Because of Bug')
+    print('Deleted Due To Bug')
 #Start printing the boot up screen.
 print('                                                                                                                         ')
 time.sleep(1)
-print('                                                                                                        BO                     ')
+print('                                                                                                        Welcome!'         )
 time.sleep(1)
-print('                                                                                                        OT                ')
+print('                                                                                                                         ')
 time.sleep(1)
-print('                                                                                                        IN               ')
+print('                                                                                                                       ')
 time.sleep(1)
-print('                                                                                                        G               ')
+print('                                                                                                                       ')
 time.sleep(1)
-print('                                                                                                        UP!                         ')
+print('                                                                                                                                    ')
 time.sleep(1)
 print('                                                                                                                         ')
 time.sleep(1)
@@ -24,7 +24,7 @@ time.sleep(1)
 #import random and string (used later)
 import random
 import string
-print('                                                                                    ____________________________________________________________')        #Boot screen thingie
+print('                                                                                    ____________________________________________________________')        #Welcome Screen
 time.sleep(0.5)
 print('                                                                                   |                                                           |')
 time.sleep(0.5)
@@ -32,13 +32,13 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
-print('                                                                                   |                 version 6.0.0.0.0                         |')
+print('                                                                                   |                 version 6.1.0.0.0                         |')
 time.sleep(0.5)
 print('                                                                                   |                                                           |')
 time.sleep(0.5)
 print('                                                                                   |             Original Release:12/31/2024                   |')
 time.sleep(1)
-print('                                                                                   |            Last Major Update:2/23/2025                    |')
+print('                                                                                   |            Last Major Update:03/03/2025                   |')
 time.sleep(1)
 print('                                                                                   |           Read User Manual (type \'help\')                  |')
 time.sleep(0.5)
@@ -166,7 +166,7 @@ while True:
             playAgain=True
             
             while playAgain==True:
-                print('B A T T L E - S H I P S\n' + '=======================')
+                print('B A T T L E - S H I P S!\n' + '=======================')
                 print('There are 3 Ships in the Ocean,\n' + 'you have 5 guesses to bomb them all! Good Luck!')
                 print()
                 playerBoard = ['?','?','?','?','?','?','?','?','?']
@@ -176,7 +176,7 @@ while True:
                 while gusses<=4:
                     displayBoard(playerBoard)
                     print()
-                    print('Choose a row (A/B/C):')
+                    print('Choose a row (A / B / C):')
                     row=input()
                     while row != 'a' and row != 'A' and row != 'b' and row != 'B' and row != 'c' and row != 'C':
                         print('You can only choose between A/B/C!')
