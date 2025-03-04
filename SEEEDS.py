@@ -32,13 +32,13 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
-print('                                                                                   |                 version 6.1.0.0.0                         |')
+print('                                                                                   |                 Version 6.1.0.0.0                         |')
 time.sleep(0.5)
 print('                                                                                   |                                                           |')
 time.sleep(0.5)
 print('                                                                                   |             Original Release:12/31/2024                   |')
 time.sleep(1)
-print('                                                                                   |            Last Major Update:03/03/2025                   |')
+print('                                                                                   |            Last Major Update:03/04/2025                   |')
 time.sleep(1)
 print('                                                                                   |           Read User Manual (type \'help\')                  |')
 time.sleep(0.5)
@@ -91,9 +91,21 @@ while True:
         if input_mode_b == input('?'):    #Little random thing
             print('something')
         else:
-            print('SYNTAX ERROR, MISTYPE?')         #Displayed if you type an unknown command
+            print('ERROR, MISTYPE?')         #Displayed if you type an unknown command
     elif input_mode == 'C':                            #if you type 'C' into MM
         input_mode_c = input('C>>>>')                   #Display this
+        if input_mode_c = 'moonlander':
+            print('Welcome to M O O N L A N D E R! This game is still in development, so it does not work!')
+            time.sleep(1)
+            print('M O O N L A N D E R! v0.0.0.0 BETA')
+            time.sleep(1)
+            print('?')
+            time.sleep(4)
+            print('?')
+            time.sleep(4)
+            print('?')
+            time.sleep(4)
+            print('?')        
         if input_mode_c == 'simplegame_snake':
             SNAKE()
         elif input_mode_c == 'simplegame_battleship':  #if you enter the command for battleship
@@ -215,9 +227,9 @@ while True:
         else:
             print('Error, No such command') #If you type in a nonexistent command into input C,  display this.
     elif input_mode == 'help':
-        input_help = input('What Do You Need Help With? commands or manual? Type one!>>')
+        input_help = input('What Do You Need Help With? do you need a list of commands or the manual? Type one!>>')
         if input_help == ('commands'):
-            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, in input B, simplegame_battleship=open battleship game (In MM>) passpick=open Password Picker 25')
+            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, in input B, simplegame_battleship=open battleship game, in input C, moonlander=Moonlander Game (In MM>) passpick=open Password Picker 25')
         elif input_help == ('manual'):
             with open('seeeds_manual.txt', 'r') as f:
                 data = f.readlines()
@@ -232,13 +244,13 @@ while True:
         adjectives = ['sleepy', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
         
         nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker witch generates secure passwords.
-        verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying']
-        print('Welcome to Password Picker 25!, version 0.0.0.1, by Ronnie Petrik')
+        verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying', 'Jumping']
+        print('Welcome to Password Picker 25!, version 0.0.0.4, by Ronnie')
         print('')
         print('')
         print('\n')
-        print('The 3rd Generation of Password Picker')
-        print('last upadated: 2/23/2025     last major update: 12/30/2024')
+        print('The 3rd and newest Generation of Password Picker')
+        print('last upadated: 3/04/2025     last major update: 12/30/2024' Recieving Updates weekly-ish)
         print('\n\n\n\n')
         while True:
             adjective = random.choice(adjectives)
@@ -257,6 +269,6 @@ while True:
                 break  #breaks the loop
             
     else:
-        print('No such input!, Try A, B, or C!')    #Tells you that the input you have put into the main menu does not exist
+        print('No such input!, Try A, B, or C!, Or type help for commands and manual!')    #Tells you that the input/command you have put into the main menu does not exist
                 
         
