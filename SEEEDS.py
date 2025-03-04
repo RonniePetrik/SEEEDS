@@ -32,7 +32,7 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
-print('                                                                                   |                 Version 6.1.0.0.0                         |')
+print('                                                                                   |                 Version 6.5.1.3.0                         |')
 time.sleep(0.5)
 print('                                                                                   |                                                           |')
 time.sleep(0.5)
