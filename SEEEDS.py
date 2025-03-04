@@ -94,7 +94,7 @@ while True:
             print('ERROR, MISTYPE?')         #Displayed if you type an unknown command
     elif input_mode == 'C':                            #if you type 'C' into MM
         input_mode_c = input('C>>>>')                   #Display this
-        if input_mode_c = 'moonlander':
+        if input_mode_c == 'moonlander':
             print('Welcome to M O O N L A N D E R! This game is still in development, so it does not work!')
             time.sleep(1)
             print('M O O N L A N D E R! v0.0.0.0 BETA')
