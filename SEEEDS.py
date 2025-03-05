@@ -250,7 +250,7 @@ while True:
         print('')
         print('\n')
         print('The 3rd and newest Generation of Password Picker')
-        print('last upadated: 3/04/2025     last major update: 12/30/2024' Recieving Updates weekly-ish)
+        print('last upadated: 3/04/2025     last major update: 12/30/2024 Receiving Updates Weekly-ish')
         print('\n\n\n\n')
         while True:
             adjective = random.choice(adjectives)
