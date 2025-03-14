@@ -243,9 +243,9 @@ while True:
         
         adjectives = ['sleepy', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
         
-        nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker witch generates secure passwords.
+        nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker which generates secure passwords.
         verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying', 'Jumping']
-        print('Welcome to Password Picker 25!, version 0.0.0.4, by Ronnie')
+        print('Welcome to Password Picker 25! version 0.0.0.5 by Ronnie')
         print('')
         print('')
         print('\n')
@@ -262,7 +262,7 @@ while True:
             print('Your New Password is: %s' % password)       #Displays your new password
             print('\n')          #print an empty line.
             
-            response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated
+            response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
             print('\n')
             if response == 'no':
                 print('Your Final password was:' + password)      #shows your final password that was generated before quitting the program.
