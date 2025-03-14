@@ -250,7 +250,7 @@ while True:
         print('')
         print('\n')
         print('The 3rd and newest Generation of Password Picker')
-        print('last upadated: 3/04/2025     last major update: 12/30/2024 Receiving Updates Weekly-ish')
+        print('last updated: 3/04/2025     last major update: 12/30/2024 Receiving Updates Weekly-ish')
         print('\n\n\n\n')
         while True:
             adjective = random.choice(adjectives)
@@ -259,7 +259,7 @@ while True:
             number = random.randrange(0, 100)
             special_char = random.choice(string.punctuation)
             password = adjective + verb + noun + str(number) + special_char
-            print('Your New Password is: %s' % password)       #Displays your new password
+            print('Your New Password is: %s', % password)       #Displays your new password
             print('\n')          #print an empty line.
             
             response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
