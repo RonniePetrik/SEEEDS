@@ -3,7 +3,7 @@
 #Import time
 import time
 def SNAKE():
-    print('Deleted Due To Bug')
+    print('Coming Soon!')
 #Start printing the boot up screen.
 print('                                                                                                                         ')
 time.sleep(1)
