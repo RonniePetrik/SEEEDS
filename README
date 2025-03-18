@@ -1,8 +1,11 @@
 SEEEDS is an experimental super-simple operating system-ish program that you can edit with ease, it runs in the command line, to find the manual, type help, then commands or manual (case sensitive).
-The manual is also downloaded with the SEEEDS .zip files.
+Copyright (c) 2025 Ronald Petrik
+Read the full licence in the licence file.
+
+The manual is also downloaded with the SEEEDS files.
 SEEEDS is non-graphical, and still being worked on!
 
-Coded in Python
+Coded in Python!
 
 For now only works on any computers with Python installed, you can right click and execute this program. 
 
@@ -15,4 +18,4 @@ Wiki: https://seeeds.miraheze.org/wiki/Main_Page
 Have Fun!
 New software is always added to the add-ons gitlab page before it is added to SEEEDS!(https://gitlab.com/RonniePetrik/seeeds-simple-operating-system-help-support-and-addons)\
 
-The manual command currently does not work in SEEEDS, you have to read the actual file that came with the .zip file!
+The manual command currently does not work in SEEEDS, you have to read the actual file that came with the file Download!
