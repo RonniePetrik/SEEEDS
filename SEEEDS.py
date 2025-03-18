@@ -246,11 +246,10 @@ while True:
         nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker which generates secure passwords.
         verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying', 'Jumping']
         print('Welcome to Password Picker 25! version 0.0.0.5 by Ronnie')
-        print('')
-        print('')
+        print('\n')
         print('\n')
         print('The 3rd and newest Generation of Password Picker')
-        print('last updated: 3/04/2025     last major update: 12/30/2024 Receiving Updates Weekly-ish')
+        print('last updated: 3/17/2025     last major update: 12/30/2024 Receiving Updates Weekly-ish')
         print('\n\n\n\n')
         while True:
             adjective = random.choice(adjectives)
