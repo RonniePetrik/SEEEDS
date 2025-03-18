@@ -178,8 +178,8 @@ while True:
             playAgain=True
             
             while playAgain==True:
-                print('B A T T L E - S H I P S!\n' + '=======================')
-                print('There are 3 Ships in the Ocean,\n' + 'you have 5 guesses to bomb them all! Good Luck!')
+                print('B A T T L E - S H I P!\n' + '-------------____________-------------')
+                print('There are 3 Ships in the Ocean,\n' + 'you have 5 guesses to bomb them all! Good Luck, and Have Fun!')
                 print()
                 playerBoard = ['?','?','?','?','?','?','?','?','?']
                 gusses=0
@@ -258,7 +258,7 @@ while True:
             number = random.randrange(0, 100)
             special_char = random.choice(string.punctuation)
             password = adjective + verb + noun + str(number) + special_char
-            print('Your New Password is: %s', % password)       #Displays your new password
+            print('Your New Password is: %s' % password)       #Displays your new password
             print('\n')          #print an empty line.
             
             response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
