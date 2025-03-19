@@ -38,7 +38,7 @@ print('                                                                         
 time.sleep(0.5)
 print('                                                                                   |             Original Release:12/31/2024                   |')
 time.sleep(1)
-print('                                                                                   |            Last Major Update:03/04/2025                   |')
+print('                                                                                   |            Last Major Update:03/18/2025                   |')
 time.sleep(1)
 print('                                                                                   |           Read User Manual (type \'help\')                  |')
 time.sleep(0.5)
