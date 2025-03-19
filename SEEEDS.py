@@ -178,8 +178,8 @@ while True:
             playAgain=True
             
             while playAgain==True:
-                print('B A T T L E - S H I P!\n' + '-------------____________-------------')
-                print('There are 3 Ships in the Ocean,\n' + 'you have 5 guesses to bomb them all! Good Luck, and Have Fun!')
+                print('B A T T L E - S H I P II!\n' + '-------------____________-------------')
+                print('There are 3 Ships in the Ocean, AKA the board in front of you.,\n' + 'you have 5 guesses to bomb them all! Good Luck, and Have Fun!')
                 print()
                 playerBoard = ['?','?','?','?','?','?','?','?','?']
                 gusses=0
@@ -191,21 +191,21 @@ while True:
                     print('Choose a row (A / B / C):')
                     row=input()
                     while row != 'a' and row != 'A' and row != 'b' and row != 'B' and row != 'c' and row != 'C':
-                        print('You can only choose between A/B/C!')
+                        print('You can only choose between A, B, or C!')
                         row=input()
                     
                     print('Choose a column (1/2/3):')
                     column=input()
                     while column != '1' and column != '2' and column != '3':
-                        print('You can only choose between 1/2/3!')
+                        print('You can only choose between 1, 2, or 3!')
                         column=input()
                         
                     Hit=checkHit(row,column,gameBoard)
                     if Hit==True:
-                        print('You Bombed a ship!')
+                        print('You hit a ship with a BOMB, nice job!')
                         hits = hits + 1
                         if hits==3:
-                            print('You Did It!, would you like to play again? (y/n):')
+                            print('You Did It, You Beat The Enemy! Would you like to play again? (y/n):')
                             playerinput=input()
                             if playerinput == 'y' or playerinput == 'Y':
                                 playAgain=True
@@ -218,7 +218,7 @@ while True:
                         print('You Missed!')
                         gusses = gusses + 1
                 else:
-                    print('You ran out of guesses!, would you like to play again? (y/n):')
+                    print('You ran out of guesses, and did not defeat the enemy!, would you like to play again? (y/n):')
                     playerinput=input()
                     if playerinput == 'y' or playerinput == 'Y':
                         playAgain=True
@@ -258,7 +258,7 @@ while True:
             number = random.randrange(0, 100)
             special_char = random.choice(string.punctuation)
             password = adjective + verb + noun + str(number) + special_char
-            print('Your New Password is: %s' % password)       #Displays your new password
+            print('Your New Password is: %s' % password)       #Displays your new ##SECURE## password
             print('\n')          #print an empty line.
             
             response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
