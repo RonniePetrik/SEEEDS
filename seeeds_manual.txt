@@ -1,4 +1,4 @@
-For SEEEDS v6.0.0.0.0 Users/Owners Manual  
+For SEEEDS v6.9.1.0.0 Users Manual  
 
 Intro To SEEEDS: 
 
@@ -6,17 +6,14 @@ Intro To SEEEDS:
 
 SEEEDS:  
 
-Before you start having basic, 1979 style fun, you must learn how SEEEDS works! SEEEDS is completely written in python, with no added external software. Now this early version (as you can see in the header) is not capable of too much, but it will improve a LOT over time. SEEEDS can execute basic, small, simple commands. In a version very soon, I plan to add games!!! SEEEDS stands for Simple Educational Experimental Editable DOS-based Software, which (as the name says) is experimental! Any suggestions can be sent to touchportcomputers@outlook.com. 
+Before you start having basic, 1979 style fun, you must learn how SEEEDS works! SEEEDS is completely written in python, with no added external software. SEEEDS stands for Simple Educational Experimental Editable DOS-based Software, which (as the name says) is experimental! (Sort of). Any suggestions or questions can be sent to touchportcomputers@outlook.com. 
 
 Use: 
 
- To use SEEEDS, you are recommended to read this! SEEEDS is a simple OS written in python with a DOS layout. SEEEDS uses inputs, which change your topics of commands you can use. A=numbers and letters. B=other. And C=games. so, an example command could be random_numb:.Over time this will get more complicated, but for now it's simple. Here are exact steps if you don't get it yet, 1. Open SEEEDS. 2.Update the software 3. type A, B, or C (your input modes). 4.A, B, and Care case sensitive, and have to be uppercase! 5.If it's your first time using SEEEDS, check the code and the screen(if possible) for signs of tampering by other people. 6.Put your input into MM>. 7.Put your command into your input mode. 8.Should take you back to MM> after executing command. 9.Have FUN!! For commands to use in SEEEDS, just type 'help' into the main menu, and then type commands!
+ To use SEEEDS, you are recommended to read this! SEEEDS is a simple operatiing system program written in python with a DOS layout. SEEEDS uses inputs, which change your topics of commands you can use. A=numbers and letters. B=other. And C=games. so, an example command could be random_numb:.Over time this will get more complicated, but for now it's simple. Here are exact steps if you don't get it yet, 1. Open SEEEDS. 2.Update the software 3. type A, B, or C (your input modes). 4.A, B, and Care case sensitive, and have to be uppercase! 5.If it's your first time using SEEEDS, check the code and the screen(if possible) for signs of tampering by other people. 6.Put your input into MM>. 7.Put your command into your input mode. 8.Should take you back to MM> after executing command. 9.Have FUN!! For commands to use in SEEEDS, just type 'help' into the main menu, and then type commands!
 
-Have Fun,
-Ronnie
+
 
  
 
-EDITING & COPYING 
 
- SEEEDS is meant for free, crazy editing. Go crazy.
