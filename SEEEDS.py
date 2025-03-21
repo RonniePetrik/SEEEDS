@@ -1,3 +1,24 @@
+from tkinter import *
+import time
+def printSomething():
+    # if you want the button to disappear:
+    button.destroy() or button.pack_forget()
+    label = Label(root, text= "Welcome to SEEEDS! Copyright (c) 2025 Ronald Petrik \n https://github.com/RonniePetrik/SEEEDS/tree/main \n \n Please Wait!")
+    #this creates a new label to the GUI
+    label.pack() 
+
+def delete_window(window):
+    window.destroy()
+
+root = Tk()
+root.geometry("600x600")
+
+button = Button(root, text="NEXT", command=printSomething) 
+button.pack()
+root.after(10000, lambda: delete_window(root))
+root.mainloop()
+
+#time.sleep(1)
 #!/usr/bin/python
 
 #Import time
@@ -5,6 +26,7 @@ import time
 def SNAKE():
     print('Coming Soon!')
 #Start printing the boot up screen.
+time.sleep(10)
 print('                                                                                                                         ')
 time.sleep(1)
 print('                                                                                                        Welcome!'         )
