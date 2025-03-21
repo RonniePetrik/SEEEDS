@@ -54,7 +54,7 @@ print('                                                                         
 time.sleep(1)
 print('                                                                                   |                                                           |')
 time.sleep(1)
-print('                                                                                   |                 Version 6.5.1.4.0                         |')
+print('                                                                                   |                 Version 6.9.1.0.0                         |')
 time.sleep(0.5)
 print('                                                                                   |                                                           |')
 time.sleep(0.5)
@@ -86,7 +86,7 @@ time.sleep(2)
 
 while True:
     input_mode = input('MM>')  #change input mode
-    if input_mode == 'A':     #if typed 'A'
+    if input_mode == 'A' or 'a':     #if typed 'A'
         input_mode_a = input('A>>')  #switched to input mode 'A'
         if input_mode_a == 'random_numb':     #if typed random_numb
             random_numb = random.randrange(0, 100)   #generate a random number
@@ -108,13 +108,13 @@ while True:
             print('\n\n\n')
         else:  
             print('SYNTAX ERROR, MISTYPE?')     #Displayed if you put in an unknown command
-    elif input_mode == 'B':
+    elif input_mode == 'B' or 'b':
         input_mode_b = input('B>>>')
         if input_mode_b == input('?'):    #Little random thing
-            print('something')
+            print('something or nothing.')
         else:
             print('ERROR, MISTYPE?')         #Displayed if you type an unknown command
-    elif input_mode == 'C':                            #if you type 'C' into MM
+    elif input_mode == 'C' or 'c':                            #if you type 'C' into MM
         input_mode_c = input('C>>>>')                   #Display this
         if input_mode_c == 'moonlander':
             print('Welcome to M O O N L A N D E R! This game is still in development, so it does not work!')
