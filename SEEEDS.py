@@ -48,9 +48,10 @@ import random
 import string
 import sys
 print('\n')
-print('                                                                                   Welcome to SEEEDS, Version 7.9.2.0.1                          ')
-sys.stdout.write("\033[K") # Clear the current line
-sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
+#print('                                                                                   Welcome to SEEEDS, Version 7.9.2.0.1                          ')
+#time.sleep()
+#sys.stdout.write("\033[K") # Clear the current line
+#sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
 print('                                                       _________________________________________________________________________________________')        #Welcome Screen
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
