@@ -48,26 +48,26 @@ import random
 import string
 import sys
 print('\n')
-print('                                                                                   Welcome to SEEEDS, Version 8.9.2.0.1                          ')
+print('                                                                                   Welcome to SEEEDS, Version 7.9.2.0.1                          ')
 sys.stdout.write("\033[K") # Clear the current line
 sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
 print('                                                       _________________________________________________________________________________________')        #Welcome Screen
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
-print('                                                      |        Welcome to SEEEDS, Basic Operating System!    Version 8.9.2.0.1                  |')
+print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 7.9.2.0.1            |')
 time.sleep(1)
-print('                                                      |                          Copyright (C) 2025  Ronald Petrik                              |')
+print('                                                      |                             Copyright (C) 2025  Ronald Petrik                           |')
 time.sleep(1)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
-print('                                                      |                                                                                         |')
+print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
 time.sleep(0.5)
-print('                                                      |                            Originally Released 12/31/2024                               |')
+print('                                                      |                          Originally Released 12/31/2024                                 |')
 time.sleep(1)
-print('                                                      |                             Last Major Update:03/29/2025                                |')
+print('                                                      |                           Last Major Update:03/29/2025                                  |')
 time.sleep(1)
-print('                                                      |                           Read User Manual (type \'help\')                                |')
+print('                                                      |                         Read User Manual (type \'help\')                                |')
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
