@@ -13,7 +13,7 @@ def delete_window(window):
 root = Tk()
 root.geometry("600x600")
 
-button = Button(root, text="NEXT", command=printSomething) 
+button = Button(root, text="Info", command=printSomething) 
 button.pack()
 root.after(10000, lambda: delete_window(root))
 root.mainloop()
@@ -92,49 +92,48 @@ time.sleep(2)
 
 
 while True:
-    input_mode = input('MM>')  #change input mode
+    input_mode = input('SEEEDSMENU>')  #change input mode
     if input_mode == 'A':     #if typed 'A'
-        input_mode_a = input('A>>')  #switched to input mode 'A'
+        input_mode_a = input('A>')  #switched to input mode 'A'
         if input_mode_a == 'random_numb':     #if typed random_numb
             random_numb = random.randrange(0, 100)   #generate a random number
             random_numb_2 = random.randrange(0, 1000)  #generate a random number
             print(random_numb)   #print a random number between 1 and 100
         elif input_mode_a == 'random_numb_2':
             print(random_numb_2)
-        elif input_mode_a == 'note':       #unfinished
+        elif input_mode_a == 'note':       
             type_1 = input('TYPE NOTE HERE--')
         elif input_mode_a == 'show_note':
             print('\n\n\n\n')
             print(type_1)               #print what was typed
             print('\n\n\n')
         elif input_mode_a == 'note_2':               #if you type in the "note_2" command;  
-            type_2 = input('TYPE NOTE 2 HERE--')    #type your note
+            type_2 = input('TYPE NOTE_2 HERE--')    #type your note
         elif input_mode_a == 'show_note_2':          #if you type to show note 2, show the note you typed.
             print('\n\n\n\n')
             print(type_2)     #Print "Type 2"
             print('\n\n\n')
         else:  
-            print('SYNTAX ERROR, MISTYPE?')     #Displayed if you put in an unknown command
+            print('ERROR, COMMAND DOES NOT EXIST')     #Displayed if you put in an unknown command
     elif input_mode == 'B':
-        input_mode_b = input('B>>>')
+        input_mode_b = input('B>')
         if input_mode_b == input('?'):    #Little random thing
             print('something or nothing.')
         else:
             print('ERROR, MISTYPE?')         #Displayed if you type an unknown command
     elif input_mode == 'C':                            #if you type 'C' into MM
-        input_mode_c = input('C>>>>')                   #Display this
+        input_mode_c = input('C>')                   #Display this
         if input_mode_c == 'moonlander':
-            print('Welcome to M O O N L A N D E R! This game is still in development, so it does not work!')
+            print('Welcome to M O O N L A N D E R!')
             time.sleep(1)
-            print('M O O N L A N D E R! v0.0.0.0 BETA')
+            print('M O O N L A N D E R! v0.0.1 BETA')
+            print('You are an astronaut that has just finished training, and wants to get to space, prefferably the moon...')
             time.sleep(1)
-            print('?')
-            time.sleep(4)
-            print('?')
-            time.sleep(4)
-            print('?')
-            time.sleep(4)
-            print('?')        
+            print('But NASA is not currently sending astronauts to space...')
+            time.sleep(1)
+            print('So you decide to build your own rocket. Once you finish, you secretly launch during the night, and no one notices')
+            time.sleep(1)
+            print('')
         if input_mode_c == 'simplegame_snake':
             SNAKE()
         elif input_mode_c == 'simplegame_battleship':  #if you enter the command for battleship
@@ -256,7 +255,7 @@ while True:
         else:
             print('Error, No such command') #If you type in a nonexistent command into input C,  display this.
     elif input_mode == 'help':
-        input_help = input('What Do You Need Help With? do you need a list of commands or the manual? Type one!>>')
+        input_help = input('What Do You Need Help With? do you need a list of commands or the manual? Type one! (commmands/manual) CASE SENSITIVE!>>')
         if input_help == ('commands'):
             print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, in input B, simplegame_battleship=open battleship game, in input C, moonlander=Moonlander Game (In MM>) passpick=open Password Picker 25')
         elif input_help == ('manual'):
