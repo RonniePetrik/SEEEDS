@@ -113,6 +113,62 @@ while True:
             print('\n\n\n\n')
             print(type_2)     #Print "Type 2"
             print('\n\n\n')
+        elif input_mode_a == 'calculator':
+            # This adds two numbers
+            def add(x, y):
+                return x + y
+            
+            # This subtracts numbers
+            def subtract(x, y):
+                return x - y
+            
+            # This multiplies two numbers
+            def multiply(x, y):
+                return x * y
+            
+            # This divides two numbers
+            def divide(x, y):
+                return x / y
+            
+            
+            print("Select operation.")
+            print("1.Add")
+            print("2.Subtract")
+            print("3.Multiply")
+            print("4.Divide")
+            
+            while True:
+                # take input from the user
+                choice = input("Enter choice(1/2/3/4): ")
+            
+                # check if choice is one of the four options
+                if choice in ('1', '2', '3', '4'):
+                    try:
+                        num1 = float(input("Enter first number: "))
+                        num2 = float(input("Enter second number: "))
+                    except ValueError:
+                        print("Invalid input. Please enter a number.")
+                        continue
+            
+                    if choice == '1':
+                        print(num1, "+", num2, "=", add(num1, num2))
+            
+                    elif choice == '2':
+                        print(num1, "-", num2, "=", subtract(num1, num2))
+            
+                    elif choice == '3':
+                        print(num1, "*", num2, "=", multiply(num1, num2))
+            
+                    elif choice == '4':
+                        print(num1, "/", num2, "=", divide(num1, num2))
+                    
+                    # check if user wants another calculation
+                    # break the while loop if answer is no
+                    next_calculation = input("Let's do next calculation? (yes/no): ")
+                    if next_calculation == "no":
+                      break
+    else:
+        print("Invalid Input")
         else:  
             print('ERROR, COMMAND DOES NOT EXIST')     #Displayed if you put in an unknown command
     elif input_mode == 'B':
@@ -134,6 +190,7 @@ while True:
             print('So you decide to build your own rocket. Once you finish, you secretly launch during the night, and no one notices')
             time.sleep(1)
             print('')
+            break
         if input_mode_c == 'simplegame_snake':
             SNAKE()
         elif input_mode_c == 'simplegame_battleship':  #if you enter the command for battleship
@@ -257,7 +314,7 @@ while True:
     elif input_mode == 'help':
         input_help = input('What Do You Need Help With? do you need a list of commands or the manual? Type one! (commmands/manual) CASE SENSITIVE!>>')
         if input_help == ('commands'):
-            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, in input B, simplegame_battleship=open battleship game, in input C, moonlander=Moonlander Game (In MM>) passpick=open Password Picker 25')
+            print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, calculator=simple calculator in input B, simplegame_battleship=open battleship game, in input C, moonlander=Moonlander Game (In MM>) passpick=open Password Picker 25')
         elif input_help == ('manual'):
             with open('seeeds_manual.txt', 'r') as f:
                 data = f.readlines()
