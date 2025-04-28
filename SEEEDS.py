@@ -167,8 +167,8 @@ while True:
                     next_calculation = input("Let's do next calculation? (yes/no): ")
                     if next_calculation == "no":
                       break
-    else:
-        print("Invalid Input")
+                    else:
+                        print("Invalid Input")
         else:  
             print('ERROR, COMMAND DOES NOT EXIST')     #Displayed if you put in an unknown command
     elif input_mode == 'B':
