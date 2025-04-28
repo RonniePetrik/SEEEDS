@@ -92,7 +92,7 @@ time.sleep(2)
 
 
 while True:
-    input_mode = input('SEEEDSMENU>')  #change input mode
+    input_mode = input('MM>')  #change input mode
     if input_mode == 'A':     #if typed 'A'
         input_mode_a = input('A>')  #switched to input mode 'A'
         if input_mode_a == 'random_numb':     #if typed random_numb
