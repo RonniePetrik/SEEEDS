@@ -64,7 +64,7 @@ print('                                                      |                  
 time.sleep(0.5)
 print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
 time.sleep(0.5)
-print('                                                      |                          Originally Released 12/31/2024                                 |')
+print('                                                      |                          Originally Released: 12/31/2024                                |')
 time.sleep(1)
 print('                                                      |                           Last Major Update:03/29/2025                                  |')
 time.sleep(1)
@@ -102,17 +102,17 @@ while True:
         elif input_mode_a == 'random_numb_2':
             print(random_numb_2)
         elif input_mode_a == 'note':       
-            type_1 = input('TYPE NOTE HERE--')
+            type_1 = input('TYPE YOUR NOTE HERE--')
         elif input_mode_a == 'show_note':
             print('\n\n\n\n')
             print(type_1)               #print what was typed
             print('\n\n\n')
         elif input_mode_a == 'note_2':               #if you type in the "note_2" command;  
-            type_2 = input('TYPE NOTE_2 HERE--')    #type your note
+            type_2 = input('TYPE YOUR SECOND NOTE HERE--')    #type your note_2
         elif input_mode_a == 'show_note_2':          #if you type to show note 2, show the note you typed.
             print('\n\n\n\n')
             print(type_2)     #Print "Type 2"
-            print('\n\n\n')
+            print('\n\n\n')  
         elif input_mode_a == 'calculator':
             # This adds two numbers
             def add(x, y):
