@@ -56,7 +56,7 @@ print('                                                       __________________
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
-print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 7.9.2.0.1            |')
+print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 7.9.2.1.0            |')
 time.sleep(1)
 print('                                                      |                             Copyright (C) 2025  Ronald Petrik                           |')
 time.sleep(1)
