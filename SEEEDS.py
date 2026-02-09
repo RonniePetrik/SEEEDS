@@ -3,7 +3,7 @@ import time
 def printSomething():
     # if you want the button to disappear:
     button.destroy() or button.pack_forget()
-    label = Label(root, text= "Welcome to SEEEDS! Copyright (c) 2025 Ronald Petrik \n https://github.com/RonniePetrik/SEEEDS/tree/main \n \n Please Wait!")
+    label = Label(root, text= "Welcome to SEEEDS! Copyright (c) 2026 Ronald Petrik \n https://github.com/RonniePetrik/SEEEDS/tree/main \n \n Please Wait!")
     #this creates a new label to the GUI
     label.pack() 
 
@@ -56,7 +56,7 @@ print('                                                       __________________
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
-print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 7.9.2.1.0            |')
+print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 7.9.2.1.1            |')
 time.sleep(1)
 print('                                                      |                             Copyright (C) 2025  Ronald Petrik                           |')
 time.sleep(1)
@@ -64,7 +64,7 @@ print('                                                      |                  
 time.sleep(0.5)
 print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
 time.sleep(0.5)
-print('                                                      |                          Originally Released: 12/31/2024                                |')
+print('                                                      |                             Last Update: 02/09/2026                                     |')
 time.sleep(1)
 print('                                                      |                           Last Major Update:03/29/2025                                  |')
 time.sleep(1)
@@ -92,9 +92,9 @@ time.sleep(2)
 
 
 while True:
-    input_mode = input('MM>')  #change input mode
+    input_mode = input('Main_Menu>')  #change input mode
     if input_mode == 'A':     #if typed 'A'
-        input_mode_a = input('A>')  #switched to input mode 'A'
+        input_mode_a = input('Input_A>')  #switched to input mode 'A'
         if input_mode_a == 'random_numb':     #if typed random_numb
             random_numb = random.randrange(0, 100)   #generate a random number
             random_numb_2 = random.randrange(0, 1000)  #generate a random number
@@ -264,7 +264,7 @@ while True:
             
             while playAgain==True:
                 print('B A T T L E - S H I P II!\n' + '-------------____________-------------')
-                print('There are 3 Ships in the Ocean, AKA the board in front of you.,\n' + 'you have 5 guesses to bomb them all! Good Luck, and Have Fun!')
+                print('There are 3 Ships in the Ocean, AKA the board in front of you.,\n' + 'you have 5, and only 5, guesses to bomb them all! Good Luck, and Have Fun!')
                 print()
                 playerBoard = ['?','?','?','?','?','?','?','?','?']
                 gusses=0
@@ -321,7 +321,7 @@ while True:
                 for d in data:
                     print('\n\n\n\n')
                     print(d)
-    elif input_mode == 'passpick': #Starts the password picker 25 program!
+    elif input_mode == 'passpick': #Starts the password picker 25 program! (Password picker 26 is coming SOON! (hopefully!))
         #!/usr/bin/python
         import random     #import random and string
         import string
