@@ -70,11 +70,11 @@ print('                                                      |                  
 time.sleep(0.5)
 print('                                                      |                           Last Major Update:03/29/2025                                  |')
 time.sleep(0.5)
-print('                                                      |                              Last Update: 6/18/2026                                     |
+print('                                                      |                              Last Update: 6/18/2026                                     |')
 time.sleep(0.5)
 print('                                                      |                         Read User Manual (type \'help\')                                  |')
 time.sleep(0.5)
-print('                                                      |                 Contact touchportcomputers@outlook.com for support                      |
+print('                                                      |                 Contact touchportcomputers@outlook.com for support                      |')
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
