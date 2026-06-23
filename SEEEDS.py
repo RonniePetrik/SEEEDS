@@ -333,33 +333,34 @@ while True:
         import random     #import random and string
         import string
         
-        adjectives = ['sleepy', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
+        adjectives = ['sleepy', 'abrupt', 'acidic', 'adorable', 'adventurous', 'aggressive', 'agitated', 'alert', 'bored', 'brave',  'tense', 'able', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
         
         nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker which generates secure passwords.
-        verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'FARTING', 'LICKING', 'crazy', 'funny', 'growing', 'Dying', 'Jumping']
-        print('Welcome to Password Picker 25! version 0.0.0.5 by Ronnie')
+        verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'swimming', 'licking', 'crazy', 'funny', 'growing', 'Dying', 'Jumping', 'exclaiming']
+        print('Welcome to Password Picker 26! version 0.0.0.1 by Ronnie')
         print('\n')
         print('\n')
-        print('The 3rd and newest Generation of Password Picker')
-        print('last updated: 3/17/2025     last major update: 12/30/2024 Receiving Updates Weekly-ish')
+        print('The 4th and newest Generation of Password Picker')
+        print('last updated: 6/22/2026     last major update: 6/22/2026')
         print('\n\n\n\n')
         while True:
             adjective = random.choice(adjectives)
             noun = random.choice(nouns)
             verb = random.choice(verbs)
             number = random.randrange(0, 100)
+            number_2 = random.randrange(0, 10)
             special_char = random.choice(string.punctuation)
-            password = adjective + verb + noun + str(number) + special_char
+            password = adjective + verb + noun + str(number) + special_char + str(number_2)
             print('Your New Password is: %s' % password)       #Displays your new ##SECURE## password
             print('\n')          #print an empty line.
             
-            response = input('Would you like another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
+            response = input('Would you like to generate another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
             print('\n')
             if response == 'no':
-                print('Your Final password was:' + password)      #shows your final password that was generated before quitting the program.
+                print('Your Final Password Was:' + password)      #shows your final password that was generated before quitting the program.
                 break  #breaks the loop
             
     else:
-        print('No such input!, Try A, B, or C!, Or type help for commands and manual!')    #Tells you that the input/command you have put into the main menu does not exist
+        print('No such input!, Try A, B, or C!, Or type help for commands or manual!')    #Tells you that the input/command you have put into the main menu does not exist or was typed wrong
                 
         
