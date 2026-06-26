@@ -1,5 +1,6 @@
 from tkinter import *
 import time
+
 def printSomething():
     # if you want the button to disappear:
     button.destroy() or button.pack_forget()
@@ -60,7 +61,7 @@ print('                                                      |                  
 time.sleep(0.5)
 print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
 time.sleep(0.5)
-print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                           |')
+print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                      |')
 time.sleep(0.5)
 print('                                                      |                                                                                         |')
 time.sleep(0.5)
