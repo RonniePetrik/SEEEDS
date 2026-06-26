@@ -1,6 +1,11 @@
+#!/usr/bin/python
+
 from tkinter import *
 import time
 
+
+def SNAKE():
+    print('Coming Soon!')
 
 def printSomething():
     # if you want the button to disappear:
@@ -56,13 +61,17 @@ def main():
     root.after(10000, lambda: delete_window(root))
     root.mainloop()
     
-    #time.sleep(1)
-    #!/usr/bin/python
-    
-    #Import time
-    import time
-    def SNAKE():
-        print('Coming Soon!')
+
+        
+    print('  ______   ________  ________  ________  _______    ______  ')
+    print(' /      \ /        |/        |/        |/       \  /      \ ')
+    print('/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |')
+    print('$$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ ')
+    print('$$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ ')
+    print(' $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |')
+    print('/  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |')
+    print('$$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ ')
+    print(' $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  ')
     #Start printing the boot up screen.
     #time.sleep(7)
     #print('                                                                                                                         ')
@@ -92,34 +101,34 @@ def main():
     print('\n')
     #sys.stdout.write("\033[K") # Clear the current line
     #sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
-    print('                                                       _________________________________________________________________________________________')        #Welcome Screen
-    time.sleep(0.5)
-    print('                                                      |                                                                                         |')
-    time.sleep(0.5)
-    print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
-    time.sleep(0.5)
-    print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                      |')
-    time.sleep(0.5)
-    print('                                                      |                                                                                         |')
-    time.sleep(0.5)
-    print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
-    time.sleep(0.5)
-    print('                                                      |                          Originally Released: 12/31/2024                                |')
-    time.sleep(0.5)
-    print('                                                      |                           Last Major Update:03/29/2025                                  |')
-    time.sleep(0.5)
-    print('                                                      |                              Last Update: 6/26/2026                                     |')
-    time.sleep(0.5)
-    print('                                                      |                         Read User Manual (type \'help\')                                  |')
-    time.sleep(0.5)
-    print('                                                      |                 Contact TouchportComputers@outlook.com for support                      |')
-    time.sleep(0.5)
-    print('                                                      |                                                                                         |')
-    time.sleep(0.5)
-    print('                                                      |                                                                                         | ')
-    time.sleep(0.5)
-    print('                                                       _________________________________________________________________________________________')
-    time.sleep(0.5)
+    # print('                                                       _________________________________________________________________________________________')        #Welcome Screen
+    # time.sleep(0.5)
+    # print('                                                      |                                                                                         |')
+    # time.sleep(0.5)
+    # print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
+    # time.sleep(0.5)
+    # print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                      |')
+    # time.sleep(0.5)
+    # print('                                                      |                                                                                         |')
+    # time.sleep(0.5)
+    # print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
+    # time.sleep(0.5)
+    # print('                                                      |                          Originally Released: 12/31/2024                                |')
+    # time.sleep(0.5)
+    # print('                                                      |                           Last Major Update:03/29/2025                                  |')
+    # time.sleep(0.5)
+    # print('                                                      |                              Last Update: 6/26/2026                                     |')
+    # time.sleep(0.5)
+    # print('                                                      |                         Read User Manual (type \'help\')                                  |')
+    # time.sleep(0.5)
+    # print('                                                      |                 Contact TouchportComputers@outlook.com for support                      |')
+    # time.sleep(0.5)
+    # print('                                                      |                                                                                         |')
+    # time.sleep(0.5)
+    # print('                                                      |                                                                                         | ')
+    # time.sleep(0.5)
+    # print('                                                       _________________________________________________________________________________________')
+    # time.sleep(0.5)
     #print('                        |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|')#
     #time.sleep(1)
     #print('                                                                                   |///////////////////////////////////////////////////////////|')
@@ -133,7 +142,7 @@ def main():
     #print('                                                                                   |___________________________________________________________|')
     #time.sleep(1)
     print('\n\n\n')
-    time.sleep(2)
+    time.sleep(1)
 
 
     while True:
@@ -372,5 +381,5 @@ def main():
             print('No such input!, Try A, B, or C!, Or type help for commands or manual!')    #Tells you that the input/command you have put into the main menu does not exist or was typed wrong
                 
         
-#main()
-password_picker()
+main()
+#password_picker()
