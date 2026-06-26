@@ -1,11 +1,6 @@
-#!/usr/bin/python
-
 from tkinter import *
 import time
 
-
-def SNAKE():
-    print('Coming Soon!')
 
 def printSomething():
     # if you want the button to disappear:
@@ -24,72 +19,36 @@ def delete_window(window):
     window.destroy()
 
 
-time.sleep(1)
-#import random and string (used later)
-import random
-import string
-import sys
-print('\n')
-print('                                                                                   Welcome to SEEEDS, Version 8.0.0.0.0                          ')
-time.sleep(0.5)
-print('\n')
-print('\n')
-#sys.stdout.write("\033[K") # Clear the current line
-#sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
-print  ______   ________  ________  ________  _______    ______  
- /      \ /        |/        |/        |/       \  /      \ 
-/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |
-$$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ 
-$$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ 
- $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |
-/  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |
-$$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ 
- $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  
-                                                            
-                                                            
-                                                            
-#print('                                                       _________________________________________________________________________________________')        #Welcome Screen
-#time.sleep(0.5)
-#print('                                                      |                                                                                         |')
-#time.sleep(0.5)
-#print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
-#time.sleep(0.5)
-#print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                           |')
-#time.sleep(0.5)
-#print('                                                      |                                                                                         |')
-#time.sleep(0.5)
-print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
-time.sleep(0.5)
-print('                                                      |                          Originally Released: 12/31/2024                                |')
-time.sleep(0.5)
-print('                                                      |                           Last Major Update:03/29/2025                                  |')
-time.sleep(0.5)
-print('                                                      |                              Last Update: 6/26/2026                                     |')
-time.sleep(0.5)
-print('                                                      |                         Read User Manual (type \'help\')                                  |')
-time.sleep(0.5)
-print('                                                      |                 Contact TouchportComputers@outlook.com for support                      |')
-time.sleep(0.5)
-print('                                                      |                                                                                         |')
-time.sleep(0.5)
-print('                                                      |                                                                                         | ')
-time.sleep(0.5)
-print('                                                       _________________________________________________________________________________________')
-time.sleep(0.5)
-#print('                        |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|')#
-#time.sleep(1)
-#print('                                                                                   |///////////////////////////////////////////////////////////|')
-#time.sleep(0.5)
-#print('                                                                                   |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|')
-#time.sleep(0.5)
-#print('                                                                                   |///////////////////////////////////////////////////////////|')
-#time.sleep(1)
-#print('                                                                                   |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|')
-#time.sleep(1)
-#print('                                                                                   |___________________________________________________________|')
-#time.sleep(1)
-print('\n\n\n')
-time.sleep(2)
+def password_picker():
+    import random     #import random and string
+    import string
+    
+    adjectives = ['sleepy', 'abrupt', 'acidic', 'adorable', 'adventurous', 'aggressive', 'agitated', 'alert', 'bored', 'brave',  'tense', 'able', 'slow', 'smelly', 'wet', 'fat', 'red', 'orange', 'yellow', 'green', 'blue', 'purple', 'fluffy', 'white', 'proud', 'brave', 'sweaty', 'sticky', 'slobbery', 'sad', 'dead', 'honest', 'gray']
+    
+    nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker which generates secure passwords.
+    verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'swimming', 'licking', 'crazy', 'funny', 'growing', 'Dying', 'Jumping', 'exclaiming']
+    print('Welcome to Password Picker 26! version 0.0.0.1 by Ronnie')
+    print('\n')
+    print('\n')
+    print('The 4th and newest Generation of Password Picker')
+    print('last updated: 6/22/2026     last major update: 6/22/2026')
+    print('\n\n\n\n')
+    while True:
+        adjective = random.choice(adjectives)
+        noun = random.choice(nouns)
+        verb = random.choice(verbs)
+        number = random.randrange(0, 100)
+        number_2 = random.randrange(0, 10)
+        special_char = random.choice(string.punctuation)
+        password = adjective + verb + noun + str(number) + special_char + str(number_2)
+        print('Your New Password is: %s' % password)       #Displays your new ##SECURE## password
+        print('\n')          #print an empty line.
+        
+        response = input('Would you like to generate another password? Type yes {<-or->} no: ')    #asks if you would like another password to be generated!
+        print('\n')
+        if response == 'no':
+            print('Your Final Password Was:' + password)      #shows your final password that was generated before quitting the program.
+            break  #breaks the loop
 
 
 def main():
@@ -97,17 +56,13 @@ def main():
     root.after(10000, lambda: delete_window(root))
     root.mainloop()
     
-
-        
-    print('  ______   ________  ________  ________  _______    ______  ')
-    print(' /      \ /        |/        |/        |/       \  /      \ ')
-    print('/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |')
-    print('$$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ ')
-    print('$$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ ')
-    print(' $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |')
-    print('/  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |')
-    print('$$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ ')
-    print(' $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  ')
+    #time.sleep(1)
+    #!/usr/bin/python
+    
+    #Import time
+    import time
+    def SNAKE():
+        print('Coming Soon!')
     #Start printing the boot up screen.
     #time.sleep(7)
     #print('                                                                                                                         ')
@@ -137,6 +92,17 @@ def main():
     print('\n')
     #sys.stdout.write("\033[K") # Clear the current line
     #sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
+    
+    print('  ______   ________  ________  ________  _______    ______  ')
+    print(' /      \ /        |/        |/        |/       \  /      \ ')
+    print('/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |')
+    print('$$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ ')
+    print('$$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ ')
+    print(' $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |')
+    print('/  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |')
+    print('$$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ ')
+    print(' $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  ')
+    
     # print('                                                       _________________________________________________________________________________________')        #Welcome Screen
     # time.sleep(0.5)
     # print('                                                      |                                                                                         |')
@@ -165,7 +131,7 @@ def main():
     # time.sleep(0.5)
     # print('                                                       _________________________________________________________________________________________')
     # time.sleep(0.5)
-    #print('                        |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|')#
+    # #print('                        |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|')#
     #time.sleep(1)
     #print('                                                                                   |///////////////////////////////////////////////////////////|')
     #time.sleep(0.5)
