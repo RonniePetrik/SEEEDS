@@ -1,6 +1,9 @@
+#!/usr/bin/python
 from tkinter import *
 import time
 
+def SNAKE():
+    print('Coming Soon!')
 
 def printSomething():
     # if you want the button to disappear:
@@ -53,16 +56,9 @@ def password_picker():
 
 def main():
 
-    root.after(10000, lambda: delete_window(root))
+    root.after(3000, lambda: delete_window(root))
     root.mainloop()
-    
-    #time.sleep(1)
-    #!/usr/bin/python
-    
-    #Import time
-    import time
-    def SNAKE():
-        print('Coming Soon!')
+
     #Start printing the boot up screen.
     #time.sleep(7)
     #print('                                                                                                                         ')
