@@ -42,13 +42,13 @@ def SNAKE():
 #print('                                                                                                                         ')
 #time.sleep(1)
 
-time.sleep(1)
+#time.sleep(1)
 #import random and string (used later)
-import random
-import string
-import sys
-print('\n')
-print('                                                                                   Welcome to SEEEDS, Version 8.0.0.0.0                          ')
+#import random
+#import string
+#import sys
+#print('\n')
+#print('                                                                                   Welcome to SEEEDS, Version 8.0.0.0.0                          ')
 time.sleep(0.5)
 print('\n')
 print('\n')
