@@ -54,16 +54,28 @@ print('\n')
 print('\n')
 #sys.stdout.write("\033[K") # Clear the current line
 #sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
-print('                                                       _________________________________________________________________________________________')        #Welcome Screen
-time.sleep(0.5)
-print('                                                      |                                                                                         |')
-time.sleep(0.5)
-print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
-time.sleep(0.5)
-print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                           |')
-time.sleep(0.5)
-print('                                                      |                                                                                         |')
-time.sleep(0.5)
+print  ______   ________  ________  ________  _______    ______  
+ /      \ /        |/        |/        |/       \  /      \ 
+/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |
+$$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ 
+$$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ 
+ $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |
+/  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |
+$$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ 
+ $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  
+                                                            
+                                                            
+                                                            
+#print('                                                       _________________________________________________________________________________________')        #Welcome Screen
+#time.sleep(0.5)
+#print('                                                      |                                                                                         |')
+#time.sleep(0.5)
+#print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
+#time.sleep(0.5)
+#print('                                                      |                             Copyright (C) 2024-2026  Ronald Petrik                           |')
+#time.sleep(0.5)
+#print('                                                      |                                                                                         |')
+#time.sleep(0.5)
 print('                                                      |              Distributed under the GNU AFFERO GENERAL PUBLIC LICENSE                    |')
 time.sleep(0.5)
 print('                                                      |                          Originally Released: 12/31/2024                                |')
