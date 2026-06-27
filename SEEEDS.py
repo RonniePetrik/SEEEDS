@@ -82,23 +82,26 @@ def main():
     import string
     import sys
     print('\n')
-    print('                                                                                   Welcome to SEEEDS, Version 8.0.0.0.0                          ')
     time.sleep(0.5)
     print('\n')
     print('\n')
     #sys.stdout.write("\033[K") # Clear the current line
     #sys.stdout.write("\033[F") # Move cursor to the beginning of the previous line
     
-    print('  ______   ________  ________  ________  _______    ______  ')
-    print(' /      \ /        |/        |/        |/       \  /      \ ')
-    print('/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |')
-    print('$$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ ')
-    print('$$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ ')
-    print(' $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |')
-    print('/  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |')
-    print('$$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ ')
-    print(' $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  ')
-    
+    print('       ______   ________  ________  ________  _______    ______  ')
+    print('      /      \ /        |/        |/        |/       \  /      \ ')
+    print('     /$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$  |/$$$$$$  |')
+    print('     $$ \__$$/ $$ |__    $$ |__    $$ |__    $$ |  $$ |$$ \__$$/ ')
+    print('     $$      \ $$    |   $$    |   $$    |   $$ |  $$ |$$      \ ')
+    print('      $$$$$$  |$$$$$/    $$$$$/    $$$$$/    $$ |  $$ | $$$$$$  |')
+    print('     /  \__$$ |$$ |_____ $$ |_____ $$ |_____ $$ |__$$ |/  \__$$ |')
+    print('     $$    $$/ $$       |$$       |$$       |$$    $$/ $$    $$/ ')
+    print('      $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  ')
+    print('\n')
+    print('\n')
+    print('Version 8.1.0.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
+    print('      Distributed Under the Gnu Affero General Public License')
+    print('Last Update: 6/26/2026  Contact TouchportComputers@gmail.com For Support')
     # print('                                                       _________________________________________________________________________________________')        #Welcome Screen
     # time.sleep(0.5)
     # print('                                                      |                                                                                         |')
