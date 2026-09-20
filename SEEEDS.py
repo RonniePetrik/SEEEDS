@@ -30,18 +30,19 @@ def password_picker():
     
     nouns = ['apple', 'dinosaur', 'ball', 'toaster', 'goat', 'dragon', 'hammer', 'duck', 'panda', 'person', 'laptop', 'fire', 'drawer', 'outlet', 'flamingo', 'turtle', 'bunny', 'rabbit', 'tea', 'coffee']  #lists of words for password picker which generates secure passwords.
     verbs = ['Running', 'sleeping', 'Breathing', 'Sniffing', 'screaming', 'burping', 'swimming', 'licking', 'crazy', 'funny', 'growing', 'Dying', 'Jumping', 'exclaiming']
-    print('Welcome to Password Picker 26! version 0.0.0.1 by Ronnie')
+    #randoms = ['what']
+    print('Welcome to Password Picker 26! Version 0.0.0.2')
     print('\n')
     print('\n')
-    print('The 4th and newest Generation of Password Picker')
-    print('last updated: 6/22/2026     last major update: 6/22/2026')
+    print('The Newest Generation of Password Picker')
+    print('last updated: 9/20/2026     last major update: 6/22/2026')
     print('\n\n\n\n')
     while True:
         adjective = random.choice(adjectives)
         noun = random.choice(nouns)
         verb = random.choice(verbs)
-        number = random.randrange(0, 100)
-        number_2 = random.randrange(0, 10)
+        number = random.randrange(0, 1000)
+        number_2 = random.randrange(0, 100)
         special_char = random.choice(string.punctuation)
         password = adjective + verb + noun + str(number) + special_char + str(number_2)
         print('Your New Password is: %s' % password)       #Displays your new ##SECURE## password
@@ -99,8 +100,8 @@ def main():
     print('      $$$$$$/  $$$$$$$$/ $$$$$$$$/ $$$$$$$$/ $$$$$$$/   $$$$$$/  ')
 
 
- #print('_____/\\\\\\\\\\\____/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\________/\\\\\\\\\\\___ ')      #Start screen for coming update! 
- #print('___/\\\/////////\\\_\/\\\///////////__\/\\\///////////__\/\\\///////////__\/\\\////////\\\____/\\\/////////\\\_  ')     
+ #print('_____/\\\\\\\\\\\____/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\________/\\\\\\\\\\\___ ')      #Start screen for coming update! (possibly)
+ #print('___/\\\/////////\\\_\/\\\///////////__\/\\\///////////__\/\\\///////////__\/\\\////////\\\____/\\\/////////\\\_  ')     #9/20/2026 Note: Planned for next major update
  #print(' __\//\\\______\///__\/\\\_____________\/\\\_____________\/\\\_____________\/\\\______\//\\\__\//\\\______\///__ ')     
  #print(' ___\////\\\_________\/\\\\\\\\\\\_____\/\\\\\\\\\\\_____\/\\\\\\\\\\\_____\/\\\_______\/\\\___\////\\\_________ ')    
  #print('   ______\////\\\______\/\\\///////______\/\\\///////______\/\\\///////______\/\\\_______\/\\\______\////\\\______ ')   
@@ -113,9 +114,10 @@ def main():
     print('Version 8.1.0.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
     print('      Distributed Under the Gnu Affero General Public License')
     print('Last Update: 6/26/2026  Contact TouchportComputers@gmail.com For Support')
+    print('This Software Is Distributed With Absolutely NO WARRANTY')
     # print('                                                       _________________________________________________________________________________________')        #Welcome Screen (now the old welcome screen)
     # time.sleep(0.5)
-    # print('                                                      |                                                                                         |')
+    # print('                                                      |                                                                                         |')      #Legacy welcome screen, will no longer be used from version 8.1.0.0.0 onwards.
     # time.sleep(0.5)
     # print('                                                      |              Welcome to SEEEDS, Basic Operating System!    Version 8.0.0.0.0            |')
     # time.sleep(0.5)
