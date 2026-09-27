@@ -1,4 +1,4 @@
-For SEEEDS v6.9.1.0.0 Users Manual  
+For SEEEDS v8.1.0.0.5 Users Manual  
 
 Intro To SEEEDS: 
 
@@ -10,7 +10,7 @@ Before you start having basic, 1979 style fun, you must learn how SEEEDS works! 
 
 Use: 
 
- SEEEDS is a fairly simple program to use. When you first start up the SEEEDS.py file, you will see an input labelled MM    ########CONTINUE 
+ SEEEDS is a fairly simple program to use. When you first start up the SEEEDS.py file, you will see an input labelled MM>. This is your main menu, and all your commands will be inputted into in. In the main menu there are three basic commands you can put in . They are A, B, and C. These will from now on be known as "inputs". Each input can have different commands (ex. one may have games, one functional programs, such as password picker 25 or calculator, and one may have other experimental programs). To enter an input mode, you type A, B, or C, then your desired command. You can view the list of commands, and which inputs they go into, by typing the word "help" into the main menu, then commands. The manual can also be viewed by typing help.
 
 
 
