@@ -5,21 +5,21 @@ import time
 def SNAKE():
     print('Coming Soon!')
 
-def printSomething():
+#def printSomething():                                 # Code for GUI Window, removed because buggy, will be added back!
     # if you want the button to disappear:
-    button.destroy() or button.pack_forget()
-    label = Label(root, text= "Welcome to SEEEDS! Copyright (c) 2025 Ronald Petrik \n https://github.com/RonniePetrik/SEEEDS/tree/main \n \n Please Wait!")
+    #button.destroy() or button.pack_forget()
+    #label = Label(root, text= "Welcome to SEEEDS! Copyright (c) 2025 Ronald Petrik \n https://github.com/RonniePetrik/SEEEDS/tree/main \n \n Please Wait!")
     #this creates a new label to the GUI
-    label.pack() 
+    #label.pack() 
 
-root = Tk()
-root.geometry("600x600")
+#root = Tk()
+#root.geometry("600x600")
 
-button = Button(root, text="Info", command=printSomething) 
-button.pack()
+#button = Button(root, text="Info", command=printSomething) 
+#button.pack()
 
-def delete_window(window):
-    window.destroy()
+#def delete_window(window):
+    #window.destroy()
 
 
 def password_picker():
@@ -57,8 +57,8 @@ def password_picker():
 
 def main():
 
-    root.after(3000, lambda: delete_window(root))
-    root.mainloop()
+    #root.after(3000, lambda: delete_window(root))    #Old GUI window, will be added back once fixed!
+    #root.mainloop()
 
     #Start printing the boot up screen.
     #time.sleep(7)
@@ -109,11 +109,21 @@ def main():
  #print('     __/\\\______\//\\\__\/\\\_____________\/\\\_____________\/\\\_____________\/\\\_______/\\\___/\\\______\//\\\__ ') 
  #print('      _\///\\\\\\\\\\\/___\/\\\\\\\\\\\\\\\_\/\\\\\\\\\\\\\\\_\/\\\\\\\\\\\\\\\_\/\\\\\\\\\\\\/___\///\\\\\\\\\\\/___ ')
  #print('       ___\///////////_____\///////////////__\///////////////__\///////////////__\////////////_______\///////////_____ ')  
+   
+    
+# ad88888ba   88888888888  88888888888  88888888888  88888888ba,     ad88888ba
+#d8"     "8b  88           88           88           88      `"8b   d8"     "8b
+#Y8,          88           88           88           88        `8b  Y8,
+#`Y8aaaaa,    88aaaaa      88aaaaa      88aaaaa      88         88  `Y8aaaaa,
+#  `"""""8b,  88"""""      88"""""      88"""""      88         88    `"""""8b,                           #COMING SOON!
+#        `8b  88           88           88           88         8P          `8b
+#Y8a     a8P  88           88           88           88      .a8P   Y8a     a8P
+# "Y88888P"   88888888888  88888888888  88888888888  88888888Y"'     "Y88888P"
     print('\n')
     print('\n')
-    print('Version 8.1.0.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
+    print('Version 8.2.0.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
     print('      Distributed Under the Gnu Affero General Public License')
-    print('Last Update: 6/26/2026  Contact TouchportComputers@gmail.com For Support')
+    print('Last Update: 10/03/2026  Contact ronniepetrik2@gmail.com For Support')
     print('This Software Is Distributed With Absolutely NO WARRANTY')
     # print('                                                       _________________________________________________________________________________________')        #Welcome Screen (now the old welcome screen)
     # time.sleep(0.5)
