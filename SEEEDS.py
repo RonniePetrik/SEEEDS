@@ -29,7 +29,6 @@ def prPurple(s): print("\033[95m {}\033[00m".format(s))
 def prCyan(s): print("\033[96m {}\033[00m".format(s))
 def prLightGray(s): print("\033[97m {}\033[00m".format(s))
 def prBlack(s): print("\033[90m {}\033[00m".format(s))
-def prOrange(s): print("\033[90m {}\033[00m".format(s)
 
 def password_picker():
     import random     #import random and string
