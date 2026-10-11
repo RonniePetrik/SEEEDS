@@ -139,7 +139,7 @@ def main():
 #        |  |_|  |______| | |______ __ _ __ ______ ______ _,____
 #        |   _   |__    | | |  __  |  | |  |  --__|  --__|  __  \
 #        |__| |__|__-_,_|_|_|______|_______|______|______|_|  |_|    
-print('\n')
+    print('\n')
     print('\n')
     print('Version 8.2.0.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
     print('      Distributed Under the Gnu Affero General Public License')
