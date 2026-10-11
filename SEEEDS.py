@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#import _tkinter
+import tkinter
 from tkinter import *
 import time
 
