@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from tkinter import *
+#from tkinter import *
 import time
 
 def SNAKE():
