@@ -1,5 +1,6 @@
 #!/usr/bin/python
-from tkinter import *
+#import tkinter
+#from tkinter import *
 import time
 
 def SNAKE():
@@ -138,11 +139,11 @@ def main():
 #        |  |_|  |______| | |______ __ _ __ ______ ______ _,____
 #        |   _   |__    | | |  __  |  | |  |  --__|  --__|  __  \
 #        |__| |__|__-_,_|_|_|______|_______|______|______|_|  |_|    
-print('\n')
     print('\n')
-    print('Version 8.2.0.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
+    print('\n')
+    print('Version 8.2.5.0.0   Copyright 2026 Ronald Petrik   Type \'help\' For Help ')
     print('      Distributed Under the Gnu Affero General Public License')
-    print('Last Update: 10/03/2026  Contact ronniepetrik2@gmail.com For Support')
+    print('Last Update: 10/11/2026  Contact ronniepetrik2@gmail.com For Support')
     print('This Software Is Distributed With Absolutely NO WARRANTY')
     # print('                                                       _________________________________________________________________________________________')        #Welcome Screen (now the old welcome screen)
     # time.sleep(0.5)
