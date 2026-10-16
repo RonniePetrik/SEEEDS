@@ -271,7 +271,7 @@ def main():
                 print('ERROR, COMMAND DOES NOT EXIST')     #Displayed if you put in an unknown command
         elif input_mode == 'B':
             input_mode_b = input('B>')
-            if input_mode_b == input('?'):    #Little random thing
+            #if input_mode_b == input('?'):    #Little random thing     #Little Stupid Thing Actually   ########Input B
                 print('something or nothing.')
             else:
                 print('ERROR, MISTYPE?')         #Displayed if you type an unknown command
@@ -412,7 +412,7 @@ def main():
         elif input_mode == 'help':
             input_help = input('What Do You Need Help With? do you need a list of commands or the manual? Type one! (commmands/manual) CASE SENSITIVE!>>')
             if input_help == ('commands'):
-                print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, calculator=simple calculator in input B, simplegame_battleship=open battleship game, in input C, moonlander=Moonlander Game (In MM>) passpick=open Password Picker 25')
+                print('Commands: in input A (type and uppercase A into MM>): random_numb=random number 1 to 100, random_numb_2=random number 1 to 1000, note=type a note, note_2=type a second note, show_note=show first note, show_note_2=show second note, calculator=simple calculatorin input C, simplegame_battleship=battleship game, moonlander=Moonlander Game (In MM>) passpick=open Password Picker 25')
             elif input_help == ('manual'):
                 with open('seeeds_manual.txt', 'r') as f:
                     data = f.readlines()
